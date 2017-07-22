@@ -2,14 +2,9 @@ h1 a {
 	color: #FCA205;
 	font-family: Lobster;
 }
-<<<<<<< HEAD
 body {  
     background: white url("images/fondo.png") no-repeat right bottom;*/  
    /*background-color: #FF1493;*/
-=======
-body {
-	padding-left: 35px
->>>>>>> 60627e47186eda1898d4f91e64cb4a03eb0252aa
 }
     .page-header {
         background-color: #610B0B;

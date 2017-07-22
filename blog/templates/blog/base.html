@@ -10,7 +10,6 @@
             <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" href="{% static 'css/blog.css' %}">
         </head>
-<<<<<<< HEAD
  
         <body>
             <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -44,19 +43,6 @@
             <div class="panel-body">
              {% block content %}
             {% endblock %}
-=======
-       <body>
-        <div class="page-header">
-            <a href="{% url 'blog.views.post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-            <center><h1><a href="/">Desarrollo de aplicaciones web Python y Django en plataforma GNU/LINUX</a></h1></center>
-        </div>
-        <div class="content container">
-            <div class="row">
-                <div class="col-md-8">
-                {% block content %}
-                {% endblock %}
-                </div>
->>>>>>> 60627e47186eda1898d4f91e64cb4a03eb0252aa
             </div>
         </div>
        </div>
